@@ -11,7 +11,7 @@ font-size: 72px;
 text-shadow: 2px 2px 9px lightblue;
 text-decoration: none;
 border-bottom: 3px dashed lightblue;
-line-height: 60px;
+/* line-height: 60px; */
 
 }
 
@@ -28,4 +28,28 @@ background-color: purple;
 .index a {
 /* this styles the "a" tag */
     color: black;
+}
+
+.block {
+  display: block;
+  font-size: 90px;
+  text-decoration: none
+  margin: 50px;
+  margin: 50px;
+}
+
+.blockrepro {
+  display: block;
+  font-size: 90px;
+  text-decoration: none
+  margin: 50px;
+  margin: 50px;
+  color: magenta;
+  border: 2px 2px red;
+}
+
+p {
+
+margin: 50px;
+
 }
