@@ -6,12 +6,26 @@ border:10px dashed rgb(23, 143, 83);
 
 
 a {
-color: maroon;
+
 font-size: 72px;
 text-shadow: 2px 2px 9px lightblue;
 text-decoration: none;
 border-bottom: 3px dashed lightblue;
 line-height: 60px;
 
+}
 
+.gender {
+background-color: lightcyan;
+
+}
+
+.index {
+background-color: purple;
+
+}
+
+.index a {
+/* this styles the "a" tag */
+    color: black;
 }
