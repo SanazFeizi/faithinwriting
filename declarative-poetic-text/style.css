@@ -1,0 +1,56 @@
+body {
+
+   height: 680px;
+  background-color: rgb(248, 232, 232); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(137, 152, 155), rgb(0, 0, 0));
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+h2 {
+
+   font-size: 30px; 
+   color: rgb(255, 255, 255);
+   text-shadow: 0 0 3px #72d0d6, 0 0 5px #032b35;
+   padding-left: 40px;
+   padding-top: 40px;
+   position: relative;
+   display: block;
+  
+
+}
+
+.w {
+
+    position: fixed;
+    top: 63px;
+    left: 50px;
+}
+
+
+.main {
+
+    color: aliceblue;
+    padding-left: 41px;
+    padding-top: 20px;
+    
+}
+
+
+p {
+    
+    white-space: pre-line;
+    line-height: 30px;
+    font-weight: 700;// bold 
+
+}
+
+.wish {
+
+    color: rgb(97, 100, 99);
+    text-transform: uppercase;
+    font-weight: lighter;
+    
+}
+
