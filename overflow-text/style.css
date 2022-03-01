@@ -1,0 +1,137 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+
+  background-color: rgb(252, 252, 252); 
+  font-family: 'IBM Plex Mono', monospace;
+  height: 135px;
+
+}
+
+
+.container {
+
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+  width: 100vw;
+  height: 100vh;
+
+}
+ 
+
+.left {
+
+  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 50vh;
+  display: flex;
+  width: 50vw;
+
+}
+
+
+.right {
+
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 40vh;
+  display: flex;
+  width: 50vw;
+
+}
+ 
+
+.title {
+ 
+  font-size: 30px; 
+  color: rgb(3, 0, 0);
+  padding-left: 70px;
+  padding-top: 100px;
+  letter-spacing: -15px; 
+    
+}
+
+
+.title:hover {
+
+  color: rgba(37, 36, 36, 0.322);
+  font-size: 40px;
+  cursor: default;
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-direction: reverse;
+  letter-spacing: 0px;  
+
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+
+p {
+    
+  padding-left: 40px;
+  padding-top: 50px;  
+  white-space: pre-line;
+  line-height: 30px;
+  font-weight: 800;
+
+}
+
+
+.button {
+
+  background-color: #ffffff; 
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  margin-top: -116px;
+  margin-left: 60px;
+  position: relative;
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: -2px;
+  word-spacing: -2px;
+  
+}
+
+
+.button:hover {
+
+  background-color: gray;
+  cursor: pointer;
+}
+
+
+/*
+.element {
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 60px;}
+  }*/
