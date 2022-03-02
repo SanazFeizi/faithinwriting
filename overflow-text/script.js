@@ -11,3 +11,8 @@ btn.addEventListener('click', function onClick(event) {
 
 
 
+btn.addEventListener("click", changeBackground);
+
+function changeBackground() {
+  document.body.style.backgroundColor = 'gray';
+}
