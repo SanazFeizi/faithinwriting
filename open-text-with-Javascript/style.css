@@ -1,0 +1,71 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(172, 175, 175);
+    font-size: 10px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    body{
+        background-color: rgb(221, 221, 215);
+        font-size: 15px;
+    
+    }
+    #message {
+        visibility: hidden;
+    }
+   
+    #myId {
+        visibility: hidden;
+    }
+
+    #myDIV {
+        visibility: hidden;
+    }
+  
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    body{
+        background-color: rgb(255, 255, 255);
+        font-size: 18px;
+    }
+
+    #message {
+        visibility:visible
+    }
+
+    #myId {
+        visibility: visible;
+    }
+
+    #myDIV {
+        visibility: visible;
+    }
+  
+  
+
+}
+
+/* show/hide content according to screen
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+*/
