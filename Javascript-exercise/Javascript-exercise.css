@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+
+.black-border {
+    border: 2px solid black;
+}
+
+.large-text {
+
+    font-size: 20px;
+}
