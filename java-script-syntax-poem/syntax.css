@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(251, 252, 255);
+   
+}
+
+h1 {
+
+ display: block;
+ margin: 11px 0 17px 0;
+ font-size: 80px;
+ line-height: 80px;
+ text-shadow: 0 13.36px 8.896px #a59883,0 -2px 1px rgb(187, 187, 187);
+ letter-spacing: -4px;
+ text-align: center;
+ margin-top: 220px;
+ cursor: pointer;
+
+}

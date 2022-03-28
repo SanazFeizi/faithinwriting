@@ -19,7 +19,7 @@ messageContainer.innerHTML = message;
 /* show specific text according to the time*/ 
    
 let day = new Date();
- let time = today.getHours();
+ let hour = today.getHours();
  let myId;
  let myIdContainer = document.getElementById("myId");
 

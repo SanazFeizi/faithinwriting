@@ -11,3 +11,8 @@ body {
 
     font-size: 20px;
 }
+
+
+.Shadow {
+    text-shadow: 2px red;
+}
