@@ -8,19 +8,57 @@ html {
 
 
 body {
-    background-color: aqua;
-    padding: 20px;
+  
+    overflow: hidden;
+    margin-top: 140px;
+    
 }
 
 
 a {
     display: block;
     font-size: 20px;
-    color: brown;
+    color: rgb(255, 255, 255);
     margin-bottom: 16px;
-    text-shadow: 2px 2px 10px yellow;
+    text-shadow: 2px 2px 2px #a59883,2px 4px 4px rgb(187, 187, 187);
+    text-decoration: none;
 
 }
+
+a:hover {
+
+    text-shadow: none;
+  
+}
+
+
+.maintitle {
+
+    margin-left: 480px;
+    margin-top: 250px;
+    
+}
+
+.link-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+
+.left {
+   width:50%;
+   margin-right: 130px;
+   text-align: right;
+}
+
+
+.right {
+    width:50%;
+    margin-left: 130px;
+}
+ 
 
 /*
 .link-container {
@@ -39,11 +77,11 @@ a {
 @media screen and (min-width: 768px) {
 
     body{
-        background-color: rgb(255, 251, 0);
+        background-color: rgb(255, 255, 255);
     }
 
     a {
-        font-size: 40px;
+        font-size: 38px;
     }
 
        .link-container {
@@ -61,10 +99,7 @@ a {
 
 @media screen and (min-width: 1400px) {
 
-    body{
-        background-color: rgb(68, 68, 61);
-    }
-
+    
 
 
     a {
