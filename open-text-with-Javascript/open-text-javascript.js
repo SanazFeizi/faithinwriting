@@ -19,13 +19,13 @@ messageContainer.innerHTML = message;
 /* show specific text according to the time*/ 
    
 let day = new Date();
- let hour = today.getHours();
+ let time = today.getHours();
  let myId;
  let myIdContainer = document.getElementById("myId");
 
- if (hour >=18) {
+ if (time >=18) {
 		myId = " her laughter"
-	} else if (hour >=12) {
+	} else if (time >=12) {
 		myId = "her face"
 	} else {
 		myId = "her eyes"

@@ -6,6 +6,7 @@ button.addEventListener("click", addName);
 function addName() {
     counter++;
     console.log(counter);
+    
 
     if (counter > 0) {
         

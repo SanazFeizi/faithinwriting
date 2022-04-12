@@ -62,13 +62,12 @@ a:hover {
 
 .myId {
     
-    display: block;
-    font-size: 20px;
+    
     color: rgb(255, 255, 255);
     margin-bottom: 16px;
     text-shadow: 1px 1px 1px #a59883,1px 1px 1px rgb(187, 187, 187);
-    text-decoration: none;
     text-align: center;
+    cursor: pointer;
 
 }
 
