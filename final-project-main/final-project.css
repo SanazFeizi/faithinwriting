@@ -1,0 +1,1452 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: 'IBM Plex Mono', monospace;
+ 
+}
+
+
+/*title*/
+
+.title {
+
+    color: rgb(187, 182, 182);
+    position: absolute;
+    bottom: 300%;
+    left: 35%;
+    top:43%;
+    letter-spacing: -15px; 
+    font-size: 250%;
+    text-decoration: none;
+    z-index: 100px;
+   
+   
+}
+
+.title:hover {
+
+    color: rgba(255, 255, 255, 255);
+    font-size: 250%;
+    cursor: default;
+    letter-spacing: -7px; 
+    text-decoration: none;  
+    cursor:pointer;
+    text-align: center;
+    
+}
+
+
+/*---- SVG ----*/
+
+.svgwave {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    
+}
+
+.svgwave path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    transform: translate(-10%, -10%);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave text {
+
+    font-size:20px;
+    fill: white;
+    
+}
+
+
+.title:hover ~ .svgwave {
+
+    display: block;
+
+}
+
+
+/*---- SVG 1 ----*/
+
+.svgwave1 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave1 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(-160px, -850px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave1 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+
+.title:hover ~ .svgwave1 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+
+/*---- SVG 2 ----*/
+
+.svgwave2 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave2 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(-120px, -1600px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave2 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+
+.title:hover ~ .svgwave2 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 3 ----*/
+
+.svgwave3 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave3 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(130px, -2250px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave3 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+
+.title:hover ~ .svgwave3 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 4 ----*/
+
+.svgwave4 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave4 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(125px, -3190px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave4 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave4 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+
+/*---- SVG 5 ----*/
+
+.svgwave5 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave5 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(125px, -3910px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave5 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave5 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 6 ----*/
+
+.svgwave6 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave6 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(-78px, -4660px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave6 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave6 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 7 ----*/
+
+.svgwave7 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave7 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(0px, -5500px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave7 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave7 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+
+/*---- SVG 8 ----*/
+
+.svgwave8 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave8 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(-50px, -5468px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave8 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave8 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 9 ----*/
+
+.svgwave9 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave9 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(80px, -7000px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave9 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave9 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 10 ----*/
+
+.svgwave10 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave10 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(80px, -7770px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave10 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave10 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 11 ----*/
+
+.svgwave11 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave11 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(-10px,  -8517px);
+    z-index: -20px;
+    fill: none;
+
+}
+
+.svgwave11 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave11 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 12 ----*/
+
+.svgwave12 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave12 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(50px,  -9300px);
+    z-index: -20px;
+    fill: none;
+    
+
+}
+
+.svgwave12 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave12 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 13 ----*/
+
+.svgwave13 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave13 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(100px,  -10180px);
+    z-index: -20px;
+    fill: none;
+    
+
+}
+
+.svgwave13 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave13 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+
+/*---- SVG 14 ----*/
+
+.svgwave14 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave14 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(-200px, -10855px);
+    z-index: -20px;
+    fill: none;
+    
+
+}
+
+.svgwave14 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave14 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 15 ----*/
+
+.svgwave15 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave15 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(-350px,  -11595px);
+    z-index: -20px;
+    fill: none;
+    
+
+}
+
+.svgwave15 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave15 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+/*---- SVG 16 ----*/
+
+.svgwave16 {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    display: none;
+    z-index: -20px;
+    
+}
+
+.svgwave16 path {
+
+    stroke:rgb(0, 0, 0);
+    stroke-width:1px;
+    margin-top: -200px;
+    transform: translate(-9px, -12380px);
+    z-index: -20px;
+    fill: none;
+    
+
+}
+
+.svgwave16 text {
+
+    font-size:20px;
+    fill: white;
+    z-index: -20px;
+    
+}
+
+.title:hover ~ .svgwave16 {
+
+    display: block;
+    z-index: -20px;
+
+}
+
+
+
+/* Lines */
+.vl {
+    
+border-left: 1px solid rgb(252, 255, 252);
+height: 150vh;
+position: absolute;
+left: 10%;
+top: -1%;
+transform: rotate(10deg);
+opacity: 0.2;
+z-index: 10;
+   
+}
+
+.v2 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 200vh;
+    position: absolute;
+    left: 20%;
+    top: 0;
+    transform: rotate(-40deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v3 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 20%;
+    top: -50%;
+    transform: rotate(40deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v4 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 140vh;
+    position: absolute;
+    left: 60%;
+    top:-20%;
+    transform: rotate(-15deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v5 {
+    
+    border-left: 1px solid #ffffff;
+    height: 150vh;
+    position: absolute;
+    left: 50%;
+    top:-10%;
+    transform: rotate(-30deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+
+.v6 {
+    
+    border-left: 1px solid #ffffff;
+    height: 150vh;
+    position: absolute;
+    left: 50%;
+    top:-10%;
+    transform: rotate(30deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v7 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 150vh;
+    position: absolute;
+    left: 15%;
+    top: -1%;
+    transform: rotate(-10deg);
+    opacity: 0.2;
+    z-index: 10;
+       
+}
+
+.v8 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 200vh;
+    position: absolute;
+    left: 10%;
+    top: -30%;
+    transform: rotate(40deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+    
+.v9 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 150vh;
+    position: absolute;
+    left: 30%;
+    top: -1%;
+    transform: rotate(10deg);
+    opacity: 0.2;
+    z-index: 10;
+       
+}
+
+.v10 {
+    
+    border-left: 1px solid #ffffff;
+    height: 150vh;
+    position: absolute;
+    left: 40%;
+    top:-10%;
+    transform: rotate(-25deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v11 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 60%;
+    top: -50%;
+    transform: rotate(20deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v12 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -50%;
+    transform: rotate(10deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v13 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 100%;
+    top: -50%;
+    transform: rotate(-10deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v14 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 80%;
+    top: -50%;
+    transform: rotate(5deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v15 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 60%;
+    top: -50%;
+    transform: rotate(40deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v16 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 40%;
+    top: -80%;
+    transform: rotate(50deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v17 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 60%;
+    top: -80%;
+    transform: rotate(-10deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v18 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 60%;
+    top: -80%;
+    transform: rotate(10deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v19 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 30%;
+    top: -80%;
+    transform: rotate(20deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v20 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 40%;
+    top: -80%;
+    transform: rotate(-10deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v21 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 40%;
+    top: -80%;
+    transform: rotate(-5deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v22 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 200vh;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    transform: rotate(-60deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+
+
+.v23 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 200vh;
+    position: absolute;
+    left: 20%;
+    top: -30%;
+    transform: rotate(-20deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v24 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 200vh;
+    position: absolute;
+    left: 20%;
+    top: -30%;
+    transform: rotate(0deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v25 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 200vh;
+    position: absolute;
+    left: 70%;
+    top: -30%;
+    transform: rotate(0deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v26 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 200vh;
+    position: absolute;
+    left: 20%;
+    top: -30%;
+    transform: rotate(30deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v27 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 200vh;
+    position: absolute;
+    left: 25%;
+    top: -30%;
+    transform: rotate(3deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v28 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 55%;
+    top: -100%;
+    transform: rotate(-50deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v29 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 55%;
+    top: -50%;
+    transform: rotate(-40deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v30 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 150vh;
+    position: absolute;
+    left: 8%;
+    top: -1%;
+    transform: rotate(-10deg);
+    opacity: 0.2;
+    z-index: 10;
+       
+}
+
+.v31 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 150vh;
+    position: absolute;
+    left: 20%;
+    top: -60%;
+    transform: rotate(50deg);
+    opacity: 0.2;
+    z-index: 10;
+       
+}
+
+.v32 {
+    
+    border-left: 1px solid #ffffff;
+    height: 150vh;
+    position: absolute;
+    left: 80%;
+    top:-10%;
+    transform: rotate(-30deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v33 {
+    
+    border-left: 1px solid #ffffff;
+    height: 150vh;
+    position: absolute;
+    left: 70%;
+    top:-10%;
+    transform: rotate(-20deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v34 {
+    
+    border-left: 1px solid #ffffff;
+    height: 150vh;
+    position: absolute;
+    left: 100%;
+    top:-10%;
+    transform: rotate(10deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v35 {
+    
+    border-left: 1px solid #ffffff;
+    height: 150vh;
+    position: absolute;
+    left: 90%;
+    top:-20%;
+    transform: rotate(10deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v36 {
+    
+    border-left: 1px solid #ffffff;
+    height: 150vh;
+    position: absolute;
+    left: 95%;
+    top:-20%;
+    transform: rotate(20deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v37 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 110%;
+    top: -50%;
+    transform: rotate(-10deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v38 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 80%;
+    top: -50%;
+    transform: rotate(-7deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v39 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -150%;
+    transform: rotate(-70deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v40 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 80%;
+    top: -220%;
+    transform: rotate(70deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v41 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -170%;
+    transform: rotate(-60deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v42 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -190%;
+    transform: rotate(-80deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v43 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -158%;
+    transform: rotate(-65deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v44 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -180%;
+    transform: rotate(65deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v45 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -100%;
+    transform: rotate(80deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v46 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -130%;
+    transform: rotate(77deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v47 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -150%;
+    transform: rotate(70deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v48 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -245%;
+    transform: rotate(70deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v49 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -260%;
+    transform: rotate(60deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v50 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 140vh;
+    position: absolute;
+    left: 45%;
+    top:-20%;
+    transform: rotate(-10deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v51 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 140vh;
+    position: absolute;
+    left: 40%;
+    top:-20%;
+    transform: rotate(-1deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v52 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 140vh;
+    position: absolute;
+    left: 50%;
+    top:-20%;
+    transform: rotate(-1deg);
+    opacity: 0.2;
+    z-index: 10;    
+}
+
+.v53 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -220%;
+    transform: rotate(-120deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v54 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -130%;
+    transform: rotate(95deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v55 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -120%;
+    transform: rotate(98deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+.v56 {
+    
+    border-left: 1px solid rgb(252, 255, 252);
+    height: 400vh;
+    position: absolute;
+    left: 70%;
+    top: -115%;
+    transform: rotate(70deg);
+    opacity: 0.2;
+    z-index: 10;
+     
+}
+
+/* lines-hover*/
+
+.title:hover ~ .lines {
+
+    display: none; 
+
+}
+
+
+
+
+
+
+
+
+
+
+/* this motiom is not according to curve path.
+#motion-demo {
+
+    offset-path: path('M20,20 C20,100 200,0 200,100');
+    animation: move 3000ms infinite alternate ease-in-out;
+   
+  }
+  
+  @keyframes move {
+    0% {
+      offset-distance: 0%;
+    }
+    100% {
+      offset-distance: 100%;
+    }
+}*/
+
+
+
+
+
+
+
+    
+  
