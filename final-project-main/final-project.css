@@ -14,6 +14,8 @@ body {
     overflow: hidden;
     font-family: 'IBM Plex Mono', monospace;
     overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 }
 
