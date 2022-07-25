@@ -8,13 +8,13 @@ html {
 
 /* body */
 
-body {
+#BC {
     background-color: white;
     color: rgb(184, 180, 180);
     font-family: 'IBM Plex Mono', monospace;
-    overflow: hidden;
     overflow-y: hidden;
     overflow-x: hidden;
+   
 }
 
 
@@ -185,8 +185,14 @@ body {
 }
 */
 
-@media screen and (min-width: 768px) {
 
+@media screen and (min-width: 768px) {
+    #BC {
+
+        overflow-y: hidden;
+        overflow-x: hidden;
+    
+    }
 
     #discrete-text {
         position: relative;
@@ -202,6 +208,12 @@ body {
 }
 
 @media screen and (min-width: 1400px) {
+     #BC {
+        
+        overflow-y: hidden;
+        overflow-x: hidden;
+    
+    }
 
     #discrete-text {
         position: relative;
