@@ -13,7 +13,8 @@ body {
     color: rgb(255, 255, 255);
     overflow: hidden;
     font-family: 'IBM Plex Mono', monospace;
- 
+    overflow: hidden;
+
 }
 
 
